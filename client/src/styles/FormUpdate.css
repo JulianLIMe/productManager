@@ -1,0 +1,32 @@
+.container_updating {
+  position: relative;
+}
+
+.container_updating .close {
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+}
+.container_updating .close:hover {
+  border-color: rgb(203, 50, 52);
+}
+
+.container_updating form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_updating form input {
+  margin-bottom: 5px;
+}
+
+.container_updating form select {
+  margin-bottom: 5px;
+}
+
+.container_updating form textarea {
+  margin-bottom: 10px;
+}

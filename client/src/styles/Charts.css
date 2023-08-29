@@ -1,0 +1,18 @@
+.container_charts {
+  display: flex;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.container_charts .bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_charts .doughnut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
